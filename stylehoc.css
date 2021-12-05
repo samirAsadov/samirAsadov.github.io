@@ -118,3 +118,10 @@ nav a:hover {
     margin-bottom: 15px;
     border: 3px solid rgb(33, 68, 36);
 }
+
+#date {
+    font-size: 20px;
+    margin-left: auto; 
+    margin-right: 0;
+    float: right; 
+}

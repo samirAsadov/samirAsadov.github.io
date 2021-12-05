@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0; 
+    background-color: rgb(219, 238, 226);
 }
 
 header {
@@ -91,4 +92,13 @@ main {
 
 .about a:hover {
     color:rgb(45, 139, 53);
+}
+
+#date {
+    font-size: 20px;
+    margin-left: auto; 
+    margin-right: 0;
+    float: right; 
+    top: 10px;
+    position: relative;
 }

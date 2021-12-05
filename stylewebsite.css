@@ -104,6 +104,11 @@ nav a:hover {
     color: rgb(63, 173, 72);
 }
 
+.links {
+    background-color: rgb(219, 238, 226);
+    padding: 20px;
+}
+
 .links li:hover {
     color: rgb(63, 173, 72);
 }
@@ -114,7 +119,14 @@ nav a:hover {
 
 .links a {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 22px;
     margin-bottom: 5px;
     font-family: 'Varela Round', sans-serif;
+}
+
+#date {
+    font-size: 20px;
+    margin-left: auto; 
+    margin-right: 0;
+    float: right; 
 }

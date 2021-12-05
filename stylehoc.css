@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0; 
+    background-color: rgb(219, 238, 226);
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+    background-position: center;
+    background-image: url(./header.png);
+    position: relative;
+    border-bottom: 3px solid white;
+}
+
+header h1 {
+    font-family: 'Aldrich';
+    color: white;
+    background-color: rgba(255, 255, 255, 0.164);
+    font-size: 150px;
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 0 auto;
+    padding: 60px;
+
+} 
+
+a {
+    text-decoration: none;
+    color: rgb(8, 87, 38)
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 62px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 400;
+    margin: 70px 100px;
+    color: rgb(33, 68, 36);
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    color: rgb(33, 68, 36);
+    text-align: justify;
+}
+
+nav {
+    top: 50px; 
+    position: relative;
+}
+
+nav a {
+    font-family: 'Aldrich';
+    border: 3px solid white;
+    border-radius: 3px; 
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+    margin: 6px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: rgba(141, 155, 139, 0.440);
+}
+
+.preptxt {
+    background-color: rgba(190, 223, 202, 0.719);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    color: rgb(33, 68, 36);
+    letter-spacing: 3px;
+}
+
+.prep {
+    background-image: url(./HOCp.png);
+    background-position: center;
+    border-bottom: 3px solid white;
+}
+
+.story {
+    background-color: rgba(154, 201, 171, 0.781);
+    padding: 30px;
+}
+
+.storytext {
+    border: 5px solid rgb(33, 68, 36);
+    border-radius: 10px;
+    margin: 50px 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(195, 231, 211);
+}
+
+.storytext a:hover {
+    color: rgb(63, 173, 72);
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-bottom: 15px;
+    border: 3px solid rgb(33, 68, 36);
+}
